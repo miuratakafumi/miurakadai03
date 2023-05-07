@@ -34,6 +34,9 @@ class ViewController: UIViewController {
             number2 = number2 * (-1)
         }
         
+        label1.text = "\(number1)"
+        label2.text = "\(number2)"
+        
         let sum = number1 + number2
         totalLabel.text = "\(sum)"
     }
